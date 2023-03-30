@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/2.css">
+	</head>
+	<body>
+		<div class="nav dropdown m-5 p-5 ">
+			<li class="dropdown-toggle" data-toggle="dropdown" href="#">
+				<span class="text-dark ">品牌</span>
+			</li>
+			<div class=" dropdown-menu " style="min-width:8rem">
+				<a class="nav-link bg-light text-dark dropdown-item" data-toggle="tab" href="#qwas">1</a>
+				<a class="nav-link bg-light text-dark  dropdown-item" data-toggle="tab" href="#weas">2</a>
+			</div>
+		</div>
+
+		<div class="tab-content">
+			<div class="tab-pane active" id="qwas">
+				3
+			</div>
+			<div class="tab-pane" id="weas">
+				44
+			</div>
+		</div>
+
+
+
+
+
+		<div class="nav dropdown m-5 p-5">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+				<span class="text-dark ">品牌</span>
+			</a>
+			<div class=" dropdown-menu " style="min-width:8rem">
+				<a class="nav-link bg-light text-dark dropdown-item" data-toggle="tab" href="#dongbei">东北</a>
+				<a class="nav-link bg-light text-dark dropdown-item" data-toggle="tab" href="#huabei">华北</a>
+			</div>
+		</div>
+		<div class="tab-content">
+			<div class="tab-pane active" id="dongbei">
+				1
+			</div>
+			<div class="tab-pane" id="huabei">
+				3333
+			</div>
+		</div>
+
+
+
+		HTML
+
+		<div class="center2 d-md-block d-none ">
+			<img src="https://oss173p.fengmaoall.com/cms/homepage/ba7b87ecf33f4105a8b421ed27f66bb9.jpg">
+
+			<div class="center3 text-light">
+				<h3 class="" style="font-family:宋体;font-size:45px ;">Alexander Wang</h3>
+				<p class="">以时髦“型”动力 自我表态 自信开场</p>
+				<a href="#" class="text-light">立即购买</a>
+			</div>
+		</div>
+
+		CSS
+
+		.img-group { position: relative; display: inline-block;
+		}
+		.img-tip { position: absolute; bottom: 0; background: #333; color: #fff; opacity: 0.6; display: none;
+		}
+		.img-group:hover .img-tip { display: block; width: 100%; text-align: center;
+		}
+
+
+		<style>
+			.div-relative {
+				position: relative;
+				color: #000;
+				border: 1px solid #000;
+				width: 500px;
+				height: 400px
+			}
+
+			.div-a {
+				position: absolute;
+				left: 30px;
+				top: 30px;
+				background: #F00;
+				width: 200px;
+				height: 100px
+			}
+
+			/* css注释说明： 背景为红色 */
+			.div-b {
+				position: absolute;
+				left: 50px;
+				top: 60px;
+				background: #FF0;
+				width: 400px;
+				height: 200px
+			}
+
+			/* 背景为黄色 */
+			.div-c {
+				position: absolute;
+				left: 80px;
+				top: 80px;
+				background: #00F;
+				width: 300px;
+				height: 300px
+			}
+
+			/* DIV背景颜色为蓝色 */
+		</style>
+		</head>
+		<body>
+			<div class="div-relative">
+				<div class="div-a">我背景为红色</div>
+				<div class="div-b">我背景为黄色</div>
+				<div class="div-c"><img src="img/0df8c4124a934835a581ed26a9a0cc6f.jpg_720x720g%20(1).jpg"></div>
+			</div>
+
+
+
+
+		</body>
+
+</html>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>

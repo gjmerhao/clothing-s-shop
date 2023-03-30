@@ -1,0 +1,126 @@
+.center2 {
+	position: relative;
+	display: inline-block;
+
+}
+
+
+
+.center3 {
+	position: absolute;
+	bottom: 0px;
+	background: #333;
+	color: #fff;
+	opacity: 0.6;
+	display: none;
+
+
+}
+
+.center2:hover .center3 {
+	display: block;
+
+	text-align: center;
+}
+
+
+
+
+.position1 {
+	position: absolute;
+	left: 10%;
+}
+
+.position2 {
+	position: absolute;
+	left: 40%;
+}
+
+.position3 {
+	position: absolute;
+	left: 70%;
+}
+
+
+
+
+.img-group {
+	position: relative;
+	display: inline-block;
+}
+
+.img-tip {
+	position: absolute;
+	bottom: 0;
+	background: #333;
+	color: #fff;
+	opacity: 0.6;
+	display: none;
+}
+
+.img-group:hover .img-tip {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.container1 {
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 100%;
+}
+
+.picture1 {
+	
+	position: relative;
+	display: inline-block;
+}
+
+.zi {
+	padding: 5% 5% 0 24%;	
+	position: absolute;
+	bottom:4%;
+	background: white;
+	left: 22%;
+	width: 59%;
+	height:92%;
+}
+.zi- {
+	padding: 5% 5% 0 35%;	
+	position: absolute;
+	bottom:4%;
+	background: white;
+	left: 12%;
+	width:80%;
+	height:92%;
+}
+.zi2 {
+		
+	position: absolute;
+	bottom:5%;
+	
+}
+.zi3{
+		
+	position: absolute;
+	top: 23%;
+	
+}
+.zi4 {		
+	position: absolute;
+	top:30% ;	
+}
+.zi5{		
+	position: absolute;
+	top:7% ;	
+}
+.picture2{
+	position: absolute;
+	bottom:7%;
+	left:19.5%;
+}
+.picture2-{
+	position: absolute;
+	bottom:5.7%;
+	left:9%;
+}
